@@ -6,4 +6,7 @@ class HomesController < ApplicationController
   def box
   end
 
+  def index
+  end
+
 end

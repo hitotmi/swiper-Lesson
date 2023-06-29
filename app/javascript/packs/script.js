@@ -31,3 +31,11 @@ $(document).on('turbolinks:load', function() {
     $(this).slideUp();
   });
 });
+
+
+
+$(document).on('turbolinks:load', function() {
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
+  });
+});
