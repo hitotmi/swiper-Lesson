@@ -23,3 +23,11 @@ const opt = {
 $(document).on('turbolinks:load', function() {
     let swiper = new Swiper('.swiper',opt);
 });
+
+
+// boxページ
+$(document).on('turbolinks:load', function() {
+  $('.box1').on('click', function() {
+    $(this).slideUp();
+  });
+});
